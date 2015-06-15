@@ -1,0 +1,24 @@
+{
+    "name": "urmaul/yii2-mongo-formatter",
+    "type": "yii2-extension",
+    "description": "Yii2 Formatter behavior for printing MongoDB values.",
+    "keywords": ["yii2", "formatter", "mongodb", "behavior"],
+    "homepage": "https://github.com/urmaul/yii2-mongo-formatter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bogdan Kolbik",
+            "email": "me@urmaul.com",
+            "homepage": "http://www.urmaul.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-mongo": ">=0.8.1",
+        "yiisoft/yii2": "*"
+    },
+	"autoload": {
+        "psr-4": {"urmaul\\yii2\\mongo\\formatter\\": "src/"}
+    }
+}
